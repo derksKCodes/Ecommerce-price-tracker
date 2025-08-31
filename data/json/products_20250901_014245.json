@@ -1,0 +1,82 @@
+[
+    {
+        "platform": "amazon",
+        "url": "https://www.amazon.com/dp/B08N5WRWNW",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:39:56.174813"
+    },
+    {
+        "platform": "amazon",
+        "url": "https://www.amazon.com/dp/B08N5P7HW6",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:40:10.634988"
+    },
+    {
+        "platform": "ebay",
+        "url": "https://www.ebay.com/itm/284003123456",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:40:41.094634"
+    },
+    {
+        "platform": "ebay",
+        "url": "https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F284003123457&iid=72d1069f-68fd-4e92-a1af-094023f0878c&iim=JMTk3Lju&iia=yQI0OC43TN&iiz=QgYMS4yMDE*jPZ",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:41:00.313948"
+    },
+    {
+        "platform": "aliexpress",
+        "url": "https://www.aliexpress.com/item/4001234567890.html",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:41:29.775714"
+    },
+    {
+        "platform": "aliexpress",
+        "url": "https://www.aliexpress.com/item/4001234567891.html",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:41:51.158413"
+    },
+    {
+        "platform": "jumia",
+        "url": "https://www.jumia.com.ng/catalog/product1234567/",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:42:09.862621"
+    },
+    {
+        "platform": "jumia",
+        "url": "https://www.jumia.com.ng/catalog/product1234568/",
+        "title": "Not Found",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T01:42:42.788768"
+    }
+]
