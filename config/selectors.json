@@ -1,0 +1,30 @@
+{
+  "amazon": {
+    "title": "span#productTitle",
+    "price": "span.a-price span.a-offscreen",
+    "rating": "span.a-icon-alt",
+    "reviews": "#acrCustomerReviewText",
+    "discount": "span.savingsPercentage"
+  },
+  "ebay": {
+    "title": "h1.x-item-title__mainTitle, h1#itemTitle",
+    "price": "div.x-price-primary, span#prcIsum",
+    "rating": "div.x-seller-rating",
+    "reviews": "span#si-fb",
+    "discount": ""
+  },
+  "aliexpress": {
+    "title": "h1.product-title-text",
+    "price": "div.product-price-current span, span.price",
+    "rating": "span.overview-rating-average",
+    "reviews": "span.product-reviewer-reviews",
+    "discount": "span.price-discount-percentage"
+  },
+  "jumia": {
+    "title": "h1.-fs20.-pts.-pbxs, h1.-fs20",
+    "price": "span.-b.-ltr.-tal.-fs24",
+    "rating": "div.stars._m._al",
+    "reviews": "a.-plxs._more",
+    "discount": "span.bdg._dsct._dyn.-mls"
+  }
+}
