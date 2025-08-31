@@ -1,0 +1,34 @@
+# Data files
+
+
+# Logs
+/logs/
+
+# Credentials
+/credentials.json
+/config/credentials.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+*.env
+*.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
