@@ -1,6 +1,5 @@
 {
-  "amazon": [
-    "https://www.amazon.com/s?k=gaming"
-   
-    ]
+  "amazon": [ "https://www.amazon.com/s?k=gaming" ],    
+    "jumia": [ "https://www.jumia.co.ke/catalog/?q=gaming" ],
+    "ebay": [ "https://www.ebay.com/sch/i.html?_nkw=gaming" ]    
 }
