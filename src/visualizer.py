@@ -110,6 +110,9 @@ class DataVisualizer:
         # Platform comparison
         plt.figure(figsize=(12, 8))
         platform_avg = latest_data.groupby('platform')['price_numeric'].mean().dropna()
+        if platform_avg.empty:
+            logging.warning("No data available for comparison charts. Skipping visualization.")
+            return
         platform_avg.plot(kind='bar')
         plt.title("Average Price by Platform")
         plt.xlabel("Platform")
