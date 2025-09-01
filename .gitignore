@@ -1,6 +1,11 @@
 # Data files
-
-
+data
+data/
+/data
+*.csv
+*.json
+*.db
+*.xlsx
 # Logs
 /logs/
 
