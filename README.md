@@ -1,86 +1,123 @@
 # E-commerce Price Tracker
 
-A Python-based web scraper that automatically tracks product prices, ratings, reviews, and discounts from Amazon, eBay, AliExpress, and Jumia.
+A Python-based web scraper that tracks product prices, ratings, reviews, and discounts from Amazon, eBay, AliExpress, and Jumia.
 
 ## Features
 
 - Scrape product data from multiple e-commerce platforms
 - Store data in CSV, JSON, Excel, and Google Sheets
 - Generate price trend visualizations and charts
-- Schedule automatic daily runs
+- Schedule automatic daily or hourly runs
 - Handle multiple product URLs from a config file
 - Maintain price history for each product
+- Logging for all major operations
 
-## Supported Platforms
+## Project Structure
 
-- Amazon
-- eBay
-- AliExpress
-- Jumia
+```
+.gitignore
+main.py
+README.md
+requirements.txt
+setup_script.py
+config/
+    products.json
+    selectors.json
+    settings.json
+data/
+    historical_data.csv
+    charts/
+        dashboard.png
+        platform_comparison.png
+        rating_distribution.png
+    csv/
+        products_*.csv
+    excel/
+        products_*.xlsx
+    json/
+        products_*.json
+logs/
+    exporter.log
+    main.log
+    scraper.log
+    visualizer.log
+src/
+    .env
+    exporter.py
+    scheduler.py
+    scraper.py
+    utils.py
+    visualizer.py
+```
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd ecommerce-price-tracker
-Install dependencies:
+1. **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd ecommerce-price-tracker
+    ```
 
-bash
-pip install -r requirements.txt
-Download the appropriate WebDriver for your browser:
+2. **Run the setup script to create folders and default config files:**
+    ```bash
+    python setup_script.py
+    ```
 
-ChromeDriver will be automatically downloaded by webdriver-manager
+3. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Configure your products:
+4. **Configure your products:**
+    - Edit [config/products.json](config/products.json) to add your product URLs.
 
-Edit config/products.json to add your product URLs
+5. **Configure settings:**
+    - Edit [config/settings.json](config/settings.json) to adjust scraping and export options.
 
-Configure settings in config/settings.json
+6. **(Optional) Set up Google Sheets integration:**
+    - Create a Google Cloud Platform project
+    - Enable the Google Sheets API
+    - Create service account credentials and download the JSON file
+    - Place the credentials file in the project root as `credentials.json`
+    - Update the spreadsheet ID in [config/settings.json](config/settings.json)
 
-(Optional) Set up Google Sheets integration:
+## Usage
 
-Create a Google Cloud Platform project
-
-Enable the Google Sheets API
-
-Create service account credentials and download the JSON file
-
-Place the credentials file in the project root as credentials.json
-
-Update the spreadsheet ID in config/settings.json
-
-Usage
 Run the main script with desired options:
 
-bash
+```bash
 # Run complete process (scrape, export, visualize)
 python main.py --all
 
 # Run only scraping
 python main.py --scrape
 
-# Generate visualizations from existing data
+# Export existing data
+python main.py --export
+
+# Generate visualizations from historical data
 python main.py --visualize
 
-# Start scheduled daily tasks
+# Start scheduled daily tasks (default: daily at 09:00)
 python main.py --schedule
 
 # Show help
 python main.py --help
-Configuration
-Product Configuration
-Edit config/products.json to add product URLs:
+```
 
-json
+## Configuration
+
+### Product Configuration
+
+Edit [config/products.json](config/products.json):
+
+```json
 {
   "amazon": [
-    "https://www.amazon.com/dp/PRODUCT_ID",
-    "https://www.amazon.com/dp/ANOTHER_PRODUCT_ID"
+    "https://www.amazon.com/dp/PRODUCT_ID"
   ],
   "ebay": [
-    "https://www.ebay.com/itm/ITEM_ID",
-    "https://www.ebay.com/itm/ANOTHER_ITEM_ID"
+    "https://www.ebay.com/itm/ITEM_ID"
   ],
   "aliexpress": [
     "https://www.aliexpress.com/item/PRODUCT_ID.html"
@@ -89,10 +126,13 @@ json
     "https://www.jumia.com.ng/catalog/product/PRODUCT_ID"
   ]
 }
-Settings Configuration
-Edit config/settings.json to configure application behavior:
+```
 
-json
+### Settings Configuration
+
+Edit [config/settings.json](config/settings.json):
+
+```json
 {
   "headless": true,
   "implicit_wait": 10,
@@ -101,91 +141,46 @@ json
   "google_sheets": {
     "enabled": false,
     "credentials_file": "credentials.json",
-    "spreadsheet_id": "your-spreadsheet-id-here"
+    "spreadsheet_id": ""
   }
 }
-Output Files
-CSV files: data/csv/products_*.csv
+```
 
-JSON files: data/json/products_*.json
+## Output Files
 
-Excel files: data/excel/products_*.xlsx
+- CSV: [data/csv/products_*.csv](data/csv/)
+- JSON: [data/json/products_*.json](data/json/)
+- Excel: [data/excel/products_*.xlsx](data/excel/)
+- Charts: [data/charts/](data/charts/)
+- Historical data: [data/historical_data.csv](data/historical_data.csv)
+- Logs: [logs/](logs/)
 
-Charts: data/charts/*.png
+## Scheduling
 
-Historical data: data/historical_data.csv
+- Built-in scheduler: `python main.py --schedule`
+- Or use cron/Task Scheduler for automation.
 
-Logs: logs/*.log
+## Troubleshooting
 
-Scheduling
-The application can be scheduled to run automatically:
+- **WebDriver issues:** Chrome must be installed; ChromeDriver is auto-managed.
+- **Scraping failures:** Some sites may block bots; increase wait times in settings.
+- **Google Sheets:** Ensure credentials and spreadsheet sharing are correct.
+- **Memory issues:** For large product lists, increase system memory.
 
-Using the built-in scheduler:
+## Legal Considerations
 
-bash
-python main.py --schedule
-Using cron (Linux/Mac) or Task Scheduler (Windows):
+- Respect robots.txt files and site terms.
+- Add delays between requests.
+- Use scraped data responsibly.
 
-bash
-# Run daily at 9 AM
-0 9 * * * cd /path/to/ecommerce-price-tracker && python main.py --all
+## Contributing
 
-# Run hourly
-0 * * * * cd /path/to/ecommerce-price-tracker && python main.py --all
-Troubleshooting
-WebDriver issues: Make sure you have Chrome installed and updated
+- Fork the repository
+- Create a feature branch
+- Make your changes
+- Add tests if applicable
+- Submit a pull request
 
-Scraping failures: Some sites may have anti-bot measures. Try increasing wait times in settings
+## License
 
-Google Sheets integration: Verify your credentials and spreadsheet sharing settings
-
-Memory issues: For large numbers of products, consider increasing system memory
-
-Legal Considerations
-Respect robots.txt files
-
-Add delays between requests to avoid overloading servers
-
-Check terms of service for each platform
-
-Use scraped data responsibly and for personal use only
-
-Contributing
-Fork the repository
-
-Create a feature branch
-
-Make your changes
-
-Add tests if applicable
-
-Submit a pull request
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-text
-
-
-How to Use This Project
-Run the setup script to create the project structure:
-
-bash
-python setup.py
-Install the required dependencies:
-
-bash
-pip install -r requirements.txt
-Edit the config/products.json file to add your product URLs
-
-Run the scraper:
-
-bash
-python main.py --all
-For scheduled runs, either:
-
-Use the built-in scheduler: python main.py --schedule
-
-Set up a cron job or Task Scheduler to run python main.py --all daily
-
-This complete implementation provides a robust e-commerce price tracking system that can scrape data from multiple platforms, store it in various formats, generate visualizations, and run on a schedule. The code includes error handling, logging, and configuration options to make it production-ready.
+MIT License - see the LICENSE file for details.
