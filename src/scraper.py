@@ -211,13 +211,14 @@ class EcommerceScraper:
             return None
             
         return product_data
+    # Update the scrape_amazon_search method in scraper.py
 
     def scrape_amazon_search(self):
         results = []
         try:
             # Wait for search results to load
             WebDriverWait(self.driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-component-type='s-search-result']"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, "[data-component-type='s-search-result']"))
             )
         except TimeoutException:
             self.logger.warning("Amazon search results not found or took too long to load")
@@ -226,47 +227,114 @@ class EcommerceScraper:
         try:
             items = self.driver.find_elements(
                 By.CSS_SELECTOR,
-                "div[data-component-type='s-search-result']"
+                "[data-component-type='s-search-result']"
             )
             
             self.logger.info(f"Found {len(items)} search results on Amazon")
             
-            for elem in items[:100]:  # limit to first 10 results
+            for elem in items[:10]:  # limit to first 10 results
                 try:
-                    # Title
-                    try:
-                        title_elem = elem.find_element(By.CSS_SELECTOR, "h2 a span")
-                        title = title_elem.text.strip()
-                    except NoSuchElementException:
-                        title = "Not Found"
+                    # Title - try multiple selectors
+                    title = "Not Found"
+                    title_selectors = [
+                        "h2 a span",  # Main title selector
+                        "span.a-text-normal",  # Alternative selector
+                        "h2 a",  # Fallback
+                        ".a-size-base-plus"  # Another alternative
+                    ]
+                    
+                    for selector in title_selectors:
+                        try:
+                            title_elem = elem.find_element(By.CSS_SELECTOR, selector)
+                            title = title_elem.text.strip()
+                            if title and title != "":  # Only break if we got a valid title
+                                break
+                        except (NoSuchElementException, StaleElementReferenceException):
+                            continue
 
                     # URL
-                    try:
-                        link_elem = elem.find_element(By.CSS_SELECTOR, "h2 a")
-                        link = link_elem.get_attribute("href")
-                    except NoSuchElementException:
-                        link = self.driver.current_url
+                    link = self.driver.current_url  # Default to current URL
+                    link_selectors = [
+                        "h2 a",
+                        "a.a-link-normal",
+                        "a.a-text-normal"
+                    ]
+                    
+                    for selector in link_selectors:
+                        try:
+                            link_elem = elem.find_element(By.CSS_SELECTOR, selector)
+                            link = link_elem.get_attribute("href")
+                            if link and link.startswith("http"):  # Only break if we got a valid link
+                                break
+                        except (NoSuchElementException, StaleElementReferenceException):
+                            continue
 
-                    # Price
-                    try:
-                        price_elem = elem.find_element(By.CSS_SELECTOR, "span.a-price")
-                        price = price_elem.text.strip().replace("\n", ".")
-                    except NoSuchElementException:
-                        price = "Not Found"
+                    # Price - try multiple selectors
+                    price = "Not Found"
+                    price_selectors = [
+                        "span.a-price",  # Main price container
+                        "span.a-price-whole",  # Whole price part
+                        "span.a-offscreen",  # Screen reader price
+                        ".a-price-range"  # Price range
+                    ]
+                    
+                    for selector in price_selectors:
+                        try:
+                            price_elem = elem.find_element(By.CSS_SELECTOR, selector)
+                            price_text = price_elem.text.strip()
+                            if price_text and price_text != "":  # Only use if we got text
+                                price = price_text.replace("\n", ".")
+                                break
+                        except (NoSuchElementException, StaleElementReferenceException):
+                            continue
 
-                    # Rating (for search results)
-                    try:
-                        rating_elem = elem.find_element(By.CSS_SELECTOR, "span.a-icon-alt")
-                        rating = rating_elem.get_attribute("innerHTML").split(" ")[0]
-                    except NoSuchElementException:
-                        rating = "Not Found"
+                    # Rating - for search results
+                    rating = "Not Found"
+                    rating_selectors = [
+                        "span.a-icon-alt",
+                        ".a-icon-star",
+                        "[aria-label*='out of']"
+                    ]
+                    
+                    for selector in rating_selectors:
+                        try:
+                            rating_elem = elem.find_element(By.CSS_SELECTOR, selector)
+                            rating_text = rating_elem.get_attribute("innerHTML") if selector == "span.a-icon-alt" else rating_elem.text
+                            if rating_text and "out of" in rating_text:
+                                rating = rating_text.split(" ")[0]
+                                break
+                            elif rating_text:
+                                # Try to extract numeric rating
+                                numbers = re.findall(r'\d+\.\d+|\d+', rating_text)
+                                if numbers:
+                                    rating = numbers[0]
+                                    break
+                        except (NoSuchElementException, StaleElementReferenceException):
+                            continue
 
-                    # Reviews (for search results)
-                    try:
-                        reviews_elem = elem.find_element(By.CSS_SELECTOR, "span.a-size-base")
-                        reviews = reviews_elem.text.split(" ")[0]
-                    except NoSuchElementException:
-                        reviews = "0"
+                    # Reviews - for search results
+                    reviews = "0"
+                    reviews_selectors = [
+                        "span.a-size-base",
+                        ".a-size-small",
+                        "[aria-label*='ratings']",
+                        "[aria-label*='reviews']"
+                    ]
+                    
+                    for selector in reviews_selectors:
+                        try:
+                            reviews_elem = elem.find_element(By.CSS_SELECTOR, selector)
+                            reviews_text = reviews_elem.text.strip()
+                            # Extract numbers from reviews text
+                            numbers = re.findall(r'\d+', reviews_text)
+                            if numbers:
+                                reviews = numbers[0]
+                                break
+                            elif reviews_text.isdigit():  # If it's already a number
+                                reviews = reviews_text
+                                break
+                        except (NoSuchElementException, StaleElementReferenceException):
+                            continue
 
                     results.append({
                         "platform": "amazon",
@@ -277,6 +345,7 @@ class EcommerceScraper:
                         "rating": rating,
                         "reviews": reviews
                     })
+                    
                 except StaleElementReferenceException:
                     continue
                 except Exception as e:
