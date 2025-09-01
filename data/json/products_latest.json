@@ -1,482 +1,132 @@
 [
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
+        "title": "",
+        "url": "https://www.amazon.com/MSI-Codex-Gaming-Desktop-A8NVP-436US/dp/B0F15TM77B/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-1",
+        "price": "$2,080.99",
         "discount": "0%",
         "rating": "4.3",
-        "reviews": "",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "reviews": "123",
+        "scraped_at": "2025-09-01T03:03:35.718150"
     },
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
+        "title": "CyberPowerPC Gamer Xtreme VR Gaming PC, Intel Core i7-14700F 2.1GHz, GeForce RTX 5060 Ti 16GB, 16GB DDR5, 1TB PCIe 4.0 SSD, WiFi Ready & Windows 11 Home (GXiVR8040A17)",
+        "url": "https://www.amazon.com/CyberPowerPC-i7-14700F-GeForce-Windows-GXiVR8040A17/dp/B0DW48GN42/ref=sr_1_2?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-2",
+        "price": "$1,219.99",
+        "discount": "0%",
+        "rating": "4.6",
+        "reviews": "936",
+        "scraped_at": "2025-09-01T03:03:35.718150"
+    },
+    {
+        "platform": "amazon",
+        "title": "Braided Headphone Splitter for Computer, 3.5mm Female to 2 Dual 3.5mm Male Earphones Port, Mic Y Audio Splitter Cable Compatible with Headset Microphone Gaming Computer Speaker Laptop(35cm / 14in)",
+        "url": "https://www.amazon.com/Headphone-Splitter-Earphones-Compatible-Microphone/dp/B0F541MTTQ/ref=sr_1_3?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-3",
+        "price": "$5.49",
+        "discount": "0%",
+        "rating": "4.5",
+        "reviews": "26",
+        "scraped_at": "2025-09-01T03:03:35.718277"
+    },
+    {
+        "platform": "amazon",
+        "title": "Amazon Basics 24 inch Gaming Monitor, FHD 1080P, 165Hz, VESA Compatible, Adaptive sync, 1ms Response, Black",
+        "url": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo2MDEwMTQ4MDM3MTA1NDM5OjE3NTY2ODQ5OTA6c3BfYXRmOjMwMDM0MDU4ODU4MjYwMjo6MDo6&url=%2FAmazon-Basics-Compatible-Adaptive-Response%2Fdp%2FB0CP7TNX8C%2Fref%3Dsr_1_4_ffob_sspa%3Fdib%3DeyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI%26dib_tag%3Dse%26keywords%3Dgaming%26qid%3D1756684990%26sr%3D8-4-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1",
+        "price": "Not Found",
+        "discount": "0%",
+        "rating": "4.5",
+        "reviews": "270",
+        "scraped_at": "2025-09-01T03:03:35.718277"
+    },
+    {
+        "platform": "amazon",
+        "title": "Corsair Vengeance a5100 Gaming PC \u2013 Liquid Cooled AMD Ryzen\u2122 7 9800X3D, NVIDIA\u00ae GeForce RTX\u2122 5090 GPU, 64GB Dominator Titanium RGB DDR5 Memory, 2+2TB M.2 SSD \u2013 Black/Silver",
+        "url": "https://www.amazon.com/Corsair-Vengeance-a5100-Gaming-Dominator/dp/B0F8W92786/ref=sr_1_5?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-5",
+        "price": "$6,499.99",
+        "discount": "0%",
+        "rating": "Not Found",
+        "reviews": "11",
+        "scraped_at": "2025-09-01T03:03:35.718277"
+    },
+    {
+        "platform": "amazon",
+        "title": "ASUS ROG Strix G16 (2025) Gaming Laptop, 16\u201d FHD+ 16:10 165Hz/3ms Display, NVIDIA\u00ae GeForce RTX\u2122 5060 Laptop GPU, Intel\u00ae Core\u2122 i7 Processor 14650HX, 16GB DDR5, 1TB Gen 4 SSD, Wi-Fi 7, Windows 11 Home",
+        "url": "https://www.amazon.com/ASUS-ROG-Strix-Gaming-Laptop/dp/B0DZZWMB2L/ref=sr_1_6?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-6",
         "price": "$1,274.99",
         "discount": "0%",
         "rating": "4.6",
         "reviews": "81",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "scraped_at": "2025-09-01T03:03:35.718277"
     },
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "5.0",
-        "reviews": "6",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$967.04",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "5,668",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
+        "title": "MSI Katana 15 HX 15.6\u201d 165Hz QHD+ Gaming Laptop: Intel Core i9-14900HX, NVIDIA Geforce RTX 5070, 32GB DDR5, 1TB NVMe SSD, RGB Keyboard, Win 11 Home: Black B14WGK-016US",
+        "url": "https://www.amazon.com/Katana-15-6-165Hz-Gaming-Laptop/dp/B0DZFVBQLK/ref=sr_1_7?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-7",
         "price": "$1,499.99",
         "discount": "0%",
         "rating": "4.8",
         "reviews": "38",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "scraped_at": "2025-09-01T03:03:35.718277"
     },
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
+        "title": "Jun 30, 2025",
+        "url": "https://www.amazon.com/RayNeo-JoyDock-Switch-with10000mAh-Gaming-Console/dp/B0FGCPTY8Z/ref=sr_1_8?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-8",
+        "price": "$89.00",
         "discount": "0%",
-        "rating": "4.7",
-        "reviews": "1,329",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "rating": "3.3",
+        "reviews": "30",
+        "scraped_at": "2025-09-01T03:03:35.718277"
     },
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$39.00",
+        "title": "Blue Light Blocking Glasses - Fashion Square Eyeglasses, Anti UV Ray Computer Gaming Glasses Blue Blockers for Women/Men",
+        "url": "https://www.amazon.com/Blue-Light-Blocking-Glasses-Eyeglasses/dp/B0D9HRSR11/ref=sr_1_9?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-9",
+        "price": "$7.99",
         "discount": "0%",
-        "rating": "4.0",
-        "reviews": "369",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "rating": "4.4",
+        "reviews": "3",
+        "scraped_at": "2025-09-01T03:03:35.718277"
     },
     {
         "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
+        "title": "Mar 13, 2025",
+        "url": "https://www.amazon.com/Xbox-Wireless-Gaming-Controller-Headsets-Console/dp/B0F1HX3WXX/ref=sr_1_10?dib=eyJ2IjoiMSJ9.nT6IE53AC-z9ZyNjetcZ9AqxQLgJqj86cpmVPVOgCWoZQHzoi75OjaL8b3Rs-6HlnHDfuZSljdVn0N8I95BEOTZ1-4qcBRxK9W8TKn6pMKZZIwWBYFAJSeZtpfQhq7ZbSOV9lELQ6TRQTCVHNoyM9qu8P8teCc86u8PCFOUPm7m1l1e0zqjouiDFNtPQNZKDGg7NRdvLI8NjN8nPGzYAhnOmJIh2uD57qQ10rTyQ3rpdcrczhhhj6-2g4DHf6UVF_zj2g_lGTiKk1EW9RSNtxCKqbVTaq88E1gHCy7ClnAU.35gBVtk3C5iJdcfsJV67pmThTNHQjrED-oefAZq8fVI&dib_tag=se&keywords=gaming&qid=1756684990&sr=8-10",
         "price": "$54.00",
         "discount": "0%",
         "rating": "4.6",
-        "reviews": "Mar",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "reviews": "13",
+        "scraped_at": "2025-09-01T03:03:35.718277"
     },
     {
-        "platform": "amazon",
+        "platform": "jumia",
+        "url": "https://www.jumia.co.ke/catalog/?q=gaming",
         "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
         "price": "Not Found",
         "discount": "0%",
-        "rating": "4.8",
-        "reviews": "302",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T03:04:00.595314"
     },
     {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
+        "platform": "ebay",
+        "title": "",
+        "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+        "price": "",
         "discount": "0%",
-        "rating": "4.7",
-        "reviews": "28,229",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T03:04:30.967316"
     },
     {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$219.99",
+        "platform": "ebay",
+        "title": "",
+        "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+        "price": "",
         "discount": "0%",
-        "rating": "4.4",
-        "reviews": "949",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$39.98",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "22,939",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$1,599.99",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "11",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$24.99",
-        "discount": "0%",
-        "rating": "4.8",
-        "reviews": "1,977",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$10.00",
-        "discount": "0%",
-        "rating": "4.5",
-        "reviews": "May",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "3,753",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "648",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.3",
-        "reviews": "USB",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "39,512",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$389.99",
-        "discount": "0%",
-        "rating": "4.5",
-        "reviews": "520",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "18,152",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$219.00",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "1,006",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$1,479.99",
-        "discount": "0%",
-        "rating": "4.8",
-        "reviews": "14",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$2,349.99",
-        "discount": "0%",
-        "rating": "4.0",
-        "reviews": "49",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$759.99",
-        "discount": "0%",
-        "rating": "4.3",
-        "reviews": "1,262",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.1",
-        "reviews": "10,620",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$186.79",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "1,164",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "9,496",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "21,581",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$849.99",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "8",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "1,934",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$449.99",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "1,470",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "34,529",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$39.98",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "8,465",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$810.99",
-        "discount": "0%",
-        "rating": "4.3",
-        "reviews": "457",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "747",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$14.99",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "101,275",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$674.98",
-        "discount": "0%",
-        "rating": "4.2",
-        "reviews": "5",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "8,405",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.3",
-        "reviews": "748",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$159.99",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "14,314",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "4,963",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$349.00",
-        "discount": "0%",
-        "rating": "4.4",
-        "reviews": "2,301",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$59.99",
-        "discount": "0%",
-        "rating": "4.3",
-        "reviews": "24,092",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "Not Found",
-        "discount": "0%",
-        "rating": "4.6",
-        "reviews": "31,392",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$249.00",
-        "discount": "0%",
-        "rating": "4.7",
-        "reviews": "Apr",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$109.99",
-        "discount": "0%",
-        "rating": "4.5",
-        "reviews": "3,791",
-        "scraped_at": "2025-09-01T02:55:22.060628"
-    },
-    {
-        "platform": "amazon",
-        "title": "Not Found",
-        "url": "https://www.amazon.com/s?k=gaming",
-        "price": "$49.24",
-        "discount": "0%",
-        "rating": "4.5",
-        "reviews": "USB,",
-        "scraped_at": "2025-09-01T02:55:22.060628"
+        "rating": "Not Found",
+        "reviews": "0",
+        "scraped_at": "2025-09-01T03:04:30.967316"
     }
 ]
